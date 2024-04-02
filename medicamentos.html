@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend da API de Usuários</title>
+</head>
+<body>
+    <h1> Cadastro Medicamentos: </h1>
+
+    <form id="med-form">
+        <label for="id"> ID: </label>
+        <input type="number" id="id" required> 
+        
+        <label for="name"> Nome: </label>
+        <input type="text" id="name" required>
+
+        <label for="fabricante"> Fabricante: </label>
+        <input type="text" id="fabricante" required>
+
+        <label for="preco"> Preco: </label>
+        <input type="text" id="preco" required>
+
+        <button type="submit"> Cadastrar Medicamento </button> 
+    </form>
+    
+   
+    <h1> Lista de MED: </h1>
+    <ul id="MED-list"></ul>
+    
+    
+    
+    
+    
+    
+    <script src="medicamento.js"></script>
+</body>
+</html>

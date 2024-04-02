@@ -1,0 +1,10 @@
+{
+  "Medicamentos": [
+    {
+      "id": 1,
+      "nome": "buscopan",
+      "fabricante": "senac",
+      "preco": "12"
+    }
+  ]
+}

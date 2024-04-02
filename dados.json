@@ -1,0 +1,10 @@
+{
+  "Usuarios": [
+    {
+      "id": 1,
+      "nome": "kaue",
+      "idade": "22",
+      "cidade": "SaoLeopoldo"
+    }
+  ]
+}
